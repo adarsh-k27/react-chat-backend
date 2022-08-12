@@ -24,7 +24,7 @@ mongoose.connection
 const server = app.listen(process.env.PORT, () => console.log("Server Connected To Port", process.env.PORT))
 const io = socket(server, {
     cors: {
-        origin: "https://dazzling-lolly-08748c.netlify.app",
+        origin: "https://dazzling-lolly-08748c.netlify.app/",
         methods: ["GET", "POST"],
         credentials: true
     }
